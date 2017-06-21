@@ -1,10 +1,15 @@
+/* Met dit CSS bestand kan je heel wat customizen. Elke regel code met daar achter commentaar binnen de {} kan je aanpassen naar behoeven */
 
+
+
+/* Dit is de wrapper. Je kunt alles gemakkelijk aanpassen naar je wensen */
 .accordionWrapper{
     padding:30px;
-    background:#fff;
+    background:#fff;                              /* achtergrond */
     float:left;
-    width:80%;
-    box-sizing:border-box;
+    width:80%;                                    /* Breedte (je kunt ook in pixels werken) */
+    box-sizing:border-box;  
+    border: 0px;                                  /* Eventueel een border (waarde 5-15px max is aan te raden) */
     margin:10%;    
     box-shadow: 0 1.5em 85px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -15,20 +20,23 @@
     display:block;
     width:100%;
     box-sizing: border-box;
-    font-family:'Open-sans',Arial,sans-serif;
+    font-family:'Open-sans',Arial,sans-serif;       /* lettertypes */
 }
 
 .accordionItemHeading{
     cursor:pointer;
     margin:0px 0px 10px 0px;
     padding:10px;
-    background:#2980b9;
-    color:#fff;
+    background:#2980b9;         /* De achtergrondkleur van de headers */
+    color:#fff;                 /* De kleur van het de titel */
     width:100%;
-    border-radius: 3px;
+    border-radius: 3px;         
     box-sizing: border-box;
 }
 
+
+/* Dit is de .close waarde die aan de accordionItemContent meegegeven kan worden */
+/* Gebruik makend van webkit transities en animaties word de content verborgen... */
 .close .accordionItemContent{
     height:0px;
     -webkit-transition: height 1s ease-out;
@@ -40,10 +48,11 @@
     
 }
 
+/*... en met deze classe getoond */
 .open .accordionItemContent{
-        padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;         /* achtergrondkleur uitgeklapte content */
+    border: 1px solid #ddd;         /* border uitgeklapte content */
     width: 100%;
     margin: 0px 0px 10px 0px;
     display:block;
@@ -60,6 +69,7 @@
     box-sizing: border-box;
 }
 
+/* Dit spreekt de header aan wanneer deze geopend is  */
 .open .accordionItemHeading{
     margin:0px;
     -webkit-border-top-left-radius: 3px;
@@ -74,6 +84,6 @@
     -moz-border-radius-bottomleft: 0px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
-    background-color: #5CB6FF;
-    color: #fff;
+    background-color: #5CB6FF;          /* achtergrondkleur geopende header */
+    color: #fff;                        /* Kleur van de titeltekst wanneer geopend */
 }
