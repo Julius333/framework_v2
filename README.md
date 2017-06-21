@@ -1,1 +1,1 @@
-Dit is mijn Readme bestand voor mijn zelfgemaakte framework.
+Dit is mijn Readme bestand voor mijn zelfgemaakte framework. Hier ga ik uitleggen wat mijn framework doet en hoe je het kan gebruiken
