@@ -27,4 +27,4 @@ The code is compatible with every browser I tested on a Macbook Pro 15 inch (Chr
 ## Demo
 
 A Demo can be seen on my portfolio: 
-* [Dropwizard](juliusnuijten.nl/eigenframework.html) - My Portfolio (This is an edited version of my framework. The basic version can be seen in demo.html)
+* [JuliusNuijten.nl](http://juliusnuijten.nl/eigenframework.html) - My Portfolio (This is an edited version of my framework. The basic version can be seen in demo.html)
