@@ -1,0 +1,14 @@
+
+.accordionWrapper{
+    padding:30px;
+    background:black;
+    float:left;
+    width:80%;
+}
+
+.accordionItem{
+    float:left;
+    display:block;
+    width:100%;
+    box-sizing: border-box;
+}
