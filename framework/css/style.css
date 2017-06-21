@@ -1,9 +1,13 @@
 
 .accordionWrapper{
     padding:30px;
-    background:black;
+    background:#fff;
     float:left;
     width:80%;
+    box-sizing:border-box;
+    margin:10%;    
+    box-shadow: 0 1.5em 85px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 .accordionItem{
@@ -11,4 +15,5 @@
     display:block;
     width:100%;
     box-sizing: border-box;
+    font-family:'Open-sans',Arial,sans-serif;
 }
