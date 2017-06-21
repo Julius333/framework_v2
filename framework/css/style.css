@@ -28,3 +28,34 @@
     border-radius: 3px;
     box-sizing: border-box;
 }
+
+.close .accordionItemContent{
+    height:0px;
+    -webkit-transition: height 1s ease-out;
+    transition:height 1s ease-out;
+    -webkit-transform: scaleY(0);
+	transform: scaleY(0);
+    float:left;
+    display:block; 
+    
+}
+
+.open .accordionItemContent{
+        padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    display:block;
+    -webkit-transform: scaleY(1);
+	transform: scaleY(1);
+    -webkit-transform-origin: top;
+	transform-origin: top;
+
+	-webkit-transition: -webkit-transform 0.4s ease-out;
+	-webkit-transition: -webkit-transform 0.4s ease;
+	transition: -webkit-transform 0.4s ease;
+	transition: transform 0.4s ease;
+	transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+    box-sizing: border-box;
+}
